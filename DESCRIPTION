@@ -1,0 +1,18 @@
+Package: bearRegions
+Type: Package
+Title: Assigns bears to regions
+Version: 0.1.0
+Author: Martin Sköld
+Maintainer: Martin Sköld <martin.skold@nrm.se>
+Description: Contains code for reproducing results in 
+    "Assigning individuals to their administrative region in spatial sampling"
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr,
+  polyCub,
+  sf
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.2.3
