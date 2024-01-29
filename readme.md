@@ -2,7 +2,7 @@ Assigning individuals to regions
 ================
 
 This reposity contains the code for the paper “Assigning individuals to
-their administrative region in spatial sampling” by martin Sköld. The
+their administrative region in spatial sampling” by Martin Sköld. The
 code is written as an R package, and can be installed using the
 following code:
 

@@ -1,4 +1,4 @@
-#' Coordinates of bears in the most recent survey of each survey region
+#' Average coordinates of bears in the most recent survey of each survey region
 #'
 #'
 #' @format A data frame with 2763 rows and 9 variables:
@@ -13,6 +13,19 @@
 #'   \item{dist_to_border}{Distance to the border of the survey region (m)}
 #' }
 "bear_coordinates"
+
+#' Raw coordinates of bears in the most recent survey of each survey region
+#'
+#'
+#' @format A data frame with 9479 rows and 5 variables:
+#' \describe{
+#'   \item{id}{ID of the bear from Rovbase 3.0}
+#'   \item{survey_region}{Region where the bear was observed}
+#'   \item{date}{Date of collection of the scat sample}
+#'   \item{east}{Easting of the scat sample (SWEREF 99 TM)}
+#'   \item{north}{Northing of the scat sample (SWEREF 99 TM)}
+#' }
+"raw_data"
 
 #' Polygons of survey regions
 #'

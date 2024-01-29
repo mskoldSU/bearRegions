@@ -3,7 +3,7 @@
 \docType{data}
 \name{bear_coordinates}
 \alias{bear_coordinates}
-\title{Coordinates of bears in the most recent survey of each survey region}
+\title{Average coordinates of bears in the most recent survey of each survey region}
 \format{
 A data frame with 2763 rows and 9 variables:
 \describe{
@@ -21,6 +21,6 @@ A data frame with 2763 rows and 9 variables:
 bear_coordinates
 }
 \description{
-Coordinates of bears in the most recent survey of each survey region
+Average coordinates of bears in the most recent survey of each survey region
 }
 \keyword{datasets}
